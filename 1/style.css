@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.main{
+    background-color: #F0F2F5;
+}
+* {
+    box-sizing: border-box;
+  }
+#id1{
+    font-size: 64px;
+    color: #1877F2;
+    margin-bottom: 0px;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    letter-spacing: -2px;
+}
+#link1{
+    text-align: center;
+    color:#1877F2;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+}
+#id2{
+    font-size: 32px;
+    font-weight: lighter;
+    color: black;
+    margin-top: 12px;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+
+
+#Email,#Password{
+    width: 100%;
+    padding: 20px 20px;
+    margin: 6px 0px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1.5px solid rgb(175, 175, 175);
+}
+::placeholder{
+    color: rgb(175, 175, 175);
+    font-size: 18px;
+    /* padding: 12px; */
+}
+
+
+a:hover {
+    text-decoration: underline;
+
+  }
+
+.btn{
+    border-radius: 8px;
+    width: 100%;
+    padding: 16px;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+#button1{
+    margin-top: 12px;
+    width: 100%;
+    background-color: #1877f2;
+    font-weight: bold;
+
+}
+#button2{
+    margin: auto;
+    background-color: #42b72a;
+    font-weight: bold;
+    width: 65%;
+    text-align: center;
+}
+.new11{
+    text-align: center;
+}
+.forgot{
+    padding-top: 16px;
+    text-align: center;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+
+}
+
+
+.para{
+    text-align: center;
+}
+
+.outer{
+    width:65%;
+    margin:auto
+}
+.wannabe{
+    display: flex;
+    padding-top: 160px;
+    justify-content: space-between;
+}
+
+#link2{
+    font-weight: bold;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+
+.wannabe1{
+    margin-right: 60px;
+    width: 56%
+    
+}
+.excl{
+    width: 44%;
+    margin: auto;
+}
+.simple1{
+    /* border-bottom-style: rgb(175, 175, 175); */
+    margin: 24px 0px;
+    background-color: rgb(200, 200, 200);
+    height: 0.4px;
+}
+.wannabe2{
+    box-shadow: 4px 7px 10px rgb(200, 200, 200);
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    margin-left: 0px;
+}
