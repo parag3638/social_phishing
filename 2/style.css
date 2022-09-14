@@ -1,9 +1,6 @@
-
-
 *{
     box-sizing: border-box;
 }
-
 
 .outer{
     background-color: white;
@@ -38,6 +35,21 @@
     font-weight: 400;
 }
 
+#link1,#link2{
+     padding: 4px 8px;
+     transition: 0.3s;
+
+    
+}
+#link1:hover,#link2:hover{
+
+    background-color: #D0E8FF;
+    text-decoration: underline;
+    border-radius: 16px;
+    transition: 0.3s;
+
+}
+
 .thirdclass{
     box-shadow: 0.75px 0.75px 10px rgb(200, 200, 200);
     border-radius: 8px;
@@ -50,6 +62,7 @@
 
 .imp{
     margin-bottom: 16px;
+
 }
 
 a{
@@ -58,11 +71,15 @@ a{
     font-size: 14px;
     text-decoration: none;
 }
+
+
 #Email,#Password{
     padding: 16px 12px;
     border-radius: 4px;
     border-width: 0.5px;
     width: 100%;
+    font-size: 16px;
+
 }
 
 #link2{
@@ -70,7 +87,7 @@ a{
 }
 
 ::placeholder{
-    font-size: 16px;
+    /* font-size: 16px; */
     font-weight: 100;
 }
 
@@ -100,7 +117,7 @@ a{
     margin: auto;
     display: flex;
     justify-content: space-around;
-    color: #00000026;
+    color: #00000099;
     font-size: 16px;
     font-weight: 400;
 
@@ -109,38 +126,68 @@ a{
     display: flex;
     justify-content: space-between;
     margin-bottom: 8px;
+    align-items: center;
+}
+
+.hr{
+    height: 2px;
+    width: 44%;
+    background-color: #40404026;
 }
 
 #new{
     margin: auto;
     display: flex;
     justify-content: center;
+    
 
 }
 #button1{
 
     font-weight: 550;
     padding: 14px;
-    background-color: #0073b1;
+    background-color: #0A66C2;
     color: white;
     border: none;
-
+    transition: 0.3s;
 
 }
 
+#button1:hover{
+    background-color: #004182;
+    transition: 0.3s;
+
+}
 #button2{
 
     border-width: 1px;
-    font-weight: 700;
+    font-weight: 500;
     padding: 10px;
     background-color: white;
-    color: #00000026;
+    color: #00000099;
+    transition: 0.3s;
+
 }
 
 #button3{
     border-width: 1px;
-    font-weight: 700;
+    font-weight: 500;
     padding: 10px;
     background-color: white;
-    color: #00000026;
+    color: #00000099;
+    transition: 0.3s;
+
+}
+
+
+#button2:hover{
+    background-color: #F3F3F3;
+    transition: 0.3s;
+
+}
+
+
+#button3:hover{
+    background-color: #F3F3F3;
+    transition: 0.3s;
 }
